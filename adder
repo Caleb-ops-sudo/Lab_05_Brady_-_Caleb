@@ -1,0 +1,13 @@
+module adder(
+    input A,B,   // Declare your A/B inputs
+    output Y,C   // Declare Y output
+     // Declare carry output
+);
+assign Y =
+A^B ;
+
+assign C =
+A & B ;
+    // Enter logic equation here
+
+endmodule
